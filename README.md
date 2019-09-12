@@ -13,7 +13,7 @@
 
 2. Download from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull ha247/elasticsearch_0_90_10`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/percona" github.com/dockerfile/percona`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="ha247/elasticsearch_0_90_10" github.com/HA247RethinkIT/docker-elasticsearch_0_90_10`)
 
 
 ### Usage
