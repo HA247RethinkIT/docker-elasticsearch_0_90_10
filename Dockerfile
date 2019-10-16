@@ -12,7 +12,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Install
 RUN apt-get update
-RUN apt-get -y install wget openjdk-7-jre
+RUN apt-get -y install wget openjdk-7-jre curl
 RUN  wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.10.deb
 RUN dpkg -i elasticsearch-0.90.10.deb
 
